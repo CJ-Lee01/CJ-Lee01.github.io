@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <div style="position: absolute; z-index: 10; width: 100%;">{% include navigation.html %}</div>
+
+    {% for item in site.data.navigation %}
+      {% if page.url == item.link %}
+        <div class="top-banner" >
+          <img class="top-image" style="position: absolute; z-index: 1;" src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+          <div class="top-text"  style="position: absolute; z-index: 2; background-color: #0000006F; width: 100%; height: 100%; justify-items: center;">
+            <h1 style="max-width: 50%; font-size: xxx-large; font-family: Arial, Helvetica, sans-serif;">{{ item.title }}</h2>
+            <p style="max-width: 50%; font-family: Arial, Helvetica, sans-serif;">{{ item.text }}</p>
+            
+          </div>
+        </div>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Photo: {{ item.description }}</p>
+      {% endif %}
+    {% endfor %}
+
+      {{ content }}
+  </body>
+</html>

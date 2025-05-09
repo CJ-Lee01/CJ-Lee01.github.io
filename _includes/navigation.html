@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <div class="nav-left">
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}"{% if page.url == item.link %} class="navbar-text-item-current" {% else %} class="navbar-text-item" {% endif %}>{{ item.name }}</a>
+    {% endfor %}
+  </div>
+  <div class="nav-right">
+    {% for social in site.data.socials %}
+      <a class="social-icon-container" href="{{ social.link }}" target="_blank" title="{{ social.name }}">
+        <image class="social-icon-image" x="0.3cm" y="0.3cm" src="{{social.icon | relative_url}}" alt="{{social.name}}" />
+      </a>
+    {% endfor %}
+  </div>
+</nav>

@@ -1,0 +1,9 @@
+- name: GitHub
+  link: "https://github.com/CJ-Lee01"
+  icon: "assets/images/github.svg"          # https://simpleicons.org/
+- name: LinkedIn
+  link: "https://www.linkedin.com/in/lee-chun-jie-00641a1bb/"
+  icon: "assets/images/icons8-linkedin.svg" # https://icons8.com/icons/set/linkedin
+- name: RSS
+  link: "https://cj-lee01.github.io/feed.xml"
+  icon: "assets/images/rss.svg"             # https://simpleicons.org/
