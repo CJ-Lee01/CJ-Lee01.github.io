@@ -4,6 +4,12 @@ $social-container-size: $social-icon-container-radius * 2;
 $social-image-size: $social-icon-radius * 2;
 $social-start: $social-icon-container-radius - $social-icon-radius;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 .content {
   padding: 2rem;
   margin-top: 60vh;
@@ -18,8 +24,8 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
 .top-banner {
   position: relative;
   width: 100%;
-  height: 60vh;
   overflow: hidden;
+  aspect-ratio: 21 / 9;
 }
 
 .navbar {
