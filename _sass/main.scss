@@ -1,5 +1,5 @@
-$social-icon-radius: 0.6cm;
-$social-icon-container-radius: 0.8cm;
+$social-icon-radius: 0.5cm;
+$social-icon-container-radius: 0.6cm;
 $social-container-size: $social-icon-container-radius * 2;
 $social-image-size: $social-icon-radius * 2;
 $social-start: $social-icon-container-radius - $social-icon-radius;
@@ -18,7 +18,7 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
 .top-text {
   color: white;
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 1vh;
 }
 
 .top-banner {
@@ -26,6 +26,13 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
   width: 100%;
   overflow: hidden;
   aspect-ratio: 21 / 9;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.top-image {
+  width: 100%;
+  height: auto;
 }
 
 .navbar {
@@ -51,7 +58,7 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
 
 .navbar-text-item {
   color: white;
-  font-size: x-large;
+  font-size: large;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -81,7 +88,26 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
 }
 
 
-.top-image {
-  width: 100%;
-  height: auto;
+.project-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem;
+  scrollbar-width: none;        /* Hide scrollbar for Firefox */
+}
+
+.project-gallery::-webkit-scrollbar {
+  display: none;                /* Hide scrollbar for Chrome/Safari */
+}
+
+.project-card {
+  flex: 0 0 auto;               /* Prevent flex items from shrinking */
+  width: 200px;
+  height: 200px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  font-size:medium;
 }

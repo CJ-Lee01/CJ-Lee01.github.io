@@ -1,0 +1,25 @@
+# status: 0-Planned, 1-Ongoing, 2-On-hold, 3-Completed, 4-Abandoned
+- name: Exchange Course Mapper
+  description: Finds compatible courses for mapping between universities
+  status: 4
+- name: Jobby
+  description: Job Application Tracker on the desktop extended from AB3
+  status: 3
+- name: MoodFund
+  description: Tracks the relationship between Mood and Spending
+  status: 3
+- name: NEET
+  description: Productivity Tracker for NUS students.
+  status: 3
+- name: Test1
+  description: TestDesc should not be too long as it is only a test desc but not too short either.
+  status: 1
+- name: Test2
+  description: TestDesc should not be too long as it is only a test desc but not too short either.
+  status: 2
+- name: Test3
+  description: TestDesc should not be too long as it is only a test desc but not too short either.
+  status: 3
+- name: Test4
+  description: TestDesc should not be too long as it is only a test desc but not too short either.
+  status: 4

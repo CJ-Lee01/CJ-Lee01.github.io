@@ -32,6 +32,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  - 
+    scope: 
+      path: ""
+    values:
+      top-image: "assets/images/panetonne.jpg"
+      title: (Placeholder)
+      image-description: One of my last breakfasts during my exchange in Canada. Panetonne and maple syrup. I have a feeling I am eating it wrong.
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
