@@ -9,12 +9,6 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
   padding: 0;
 }
 
-
-.content {
-  padding: 2rem;
-  margin-top: 60vh;
-}
-
 .top-text {
   color: white;
   text-align: center;
@@ -28,6 +22,7 @@ $social-start: $social-icon-container-radius - $social-icon-radius;
   aspect-ratio: 21 / 9;
   background-size: cover; 
   background-repeat: no-repeat;
+  background-position: center
 }
 
 .top-image {
