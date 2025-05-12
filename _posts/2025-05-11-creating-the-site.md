@@ -7,7 +7,7 @@ permalink: "/blog/:title"
 top-image: "/assets/images/sitepreview.png"
 image-description: "A screenshot of my website"
 ---
-Now, the tech stack hsa been chosen.
+Now, the tech stack has been chosen.
 
 The next question on building the website would be
 
