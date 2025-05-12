@@ -5,8 +5,10 @@ date:   2025-05-11 11:00:00 +0800
 categories: tech-related
 permalink: "/blog/:title"
 top-image: "/assets/images/sitepreview.png"
-image-description: "Photo: A screenshot of my website"
+image-description: "A screenshot of my website"
 ---
+Now, the tech stack hsa been chosen.
+
 The next question on building the website would be
 
 > How do I structure my website?
