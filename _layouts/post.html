@@ -6,20 +6,25 @@ layout: default
     style="position: absolute; z-index: 2; background-color: #0000002F; width: 100%;  justify-items: center; height: 100%; align-content: center;">
   </div>
 </div>
-{% unless page.image-description == none or page.image-description == "" %}
 <div style="justify-items: center;">
+
   <p
     style="font-family: Arial, Helvetica, sans-serif; color: black; padding-left: 10%; padding-right: 10%; text-align: center;">
-    Photo: {{ page.image-description }}</p>
+    {% unless page.image-description == none or page.image-description == "" %}
+    Photo: {{ page.image-description }}
+    {% endunless %}
+    {% unless page.image-source == none or page.image-source == "" %}
+    <a href={{page.image-source}} style="padding-left: 5px;">Source</a>
+    {% endunless %}
+  </p>
 </div>
-{% endunless %}
 <div style="padding: 20px;">
   <div style="display: flex;">
     <div style="max-width: 75%; padding: 20px;">
       <h1 style="text-align: center;">{{ page.title }}</h1>
       <br>
       <p style="text-align: center;">{{ page.date | date_to_string}}</p>
-      <button id="read-aloud" style="padding-left: 5px; padding-right: 5px;">🔊 Click to speak/cancel </button>
+      <button id="read-aloud" style="padding-left: 5px; padding-right: 5px;">🔊 Click to speak/cancel (Desktop browser only) </button>
       <br><br>
       <div style="max-width: 80%; justify-self: center; text-align: justify;" id="content">{{ content }}</div>
       <br><br>
