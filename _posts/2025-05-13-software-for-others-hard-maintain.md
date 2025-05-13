@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating software for other people to maintain is hard"
-date:   2025-05-11 11:00:00 +0800
+date:   2025-05-13 23:00:00 +0800
 categories: tech-related
 permalink: "/blog/:title"
 top-image: "/assets/images/musicnotes.png"
