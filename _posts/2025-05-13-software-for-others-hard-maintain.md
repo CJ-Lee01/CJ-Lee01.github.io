@@ -40,9 +40,9 @@ That was a very hard problem to solve with the impossible triangle that is compl
 All 3 are desireable. Deliver fast, Easy to maintain, and is so innovative in features (contributing to its complexity) that it stands out from competitors.
 
 However, there are trade-offs. 
-- Sacrificing maintainability means accumulating tech debt that will slow down development in future releases.
-- Sacrificing complexity means your programs are simple and competitors can easily replicate your features.
-- Sacrificing delivery speed means competitors who sacrifice maintainability may beat you to the market.
+- Choosing Speed and Complexity means sacrificing maintainability as you will not be concerned with tech debt and best practices while churning out a couple of features. Sacrificing maintainability means accumulating tech debt that will slow down development in future releases.
+- Choosing Speed and Maintainability means that your product is not complex. Sacrificing complexity means your programs are simple and competitors can easily replicate your features.
+- Choosing Maintainability and Complexity results in slower intial delivery as you will need to adhere to and be updated with best practices and you will also occassionally refactor the code to make it more maintainable. Sacrificing delivery speed means competitors who sacrifice maintainability may beat you to the market.
 
 Implementing an interface for him to change the contents of the website adds a lot of complexity to the project. Not to mention, if he is unhappy with the layout of the website, it would mean my involvement again to code out another layout that may take another few hours, and even then he might still be unhappy with the new layout.
 
