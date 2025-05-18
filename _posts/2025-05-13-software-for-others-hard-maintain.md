@@ -4,7 +4,7 @@ title:  "Creating software for other people to maintain is hard"
 date:   2025-05-13 23:00:00 +0800
 categories: tech-related
 permalink: "/blog/:title"
-top-image: "/assets/images/musicnotes.png"
+top-image: "/assets/images/2025-05/musicnotes.png"
 image-description: > 
   The first page of the manuscript of the "Ricercar a 6" BWV 1079 by Johann Sebastian Bach. 
   Credits to Berlin State Library, Germany.
@@ -33,7 +33,7 @@ The most important thing for this project is that end product must be easily mai
 
 That was a very hard problem to solve with the impossible triangle that is complexity, maintainability and speed
 
-| ![The Triangle](/assets/images/maintainabilityTriangle.png) |
+| ![The Triangle](/assets/images/2025-05/maintainabilityTriangle.png) |
 | :-: |
 | You can only choose 2. And this is not the Vercel Logo. |
 
@@ -53,7 +53,7 @@ As I continued developing the website, I noticed that I had put in a lot of hour
 
 At the same time, as I was looking at the list of sites my friend had given as a reference, I noticed that one of them (which had the design that he liked the most) was using WordPress. 
 
-| ![The image](/assets/images/wordpressf12.png) |
+| ![The image](/assets/images/2025-05/wordpressf12.png) |
 | :-: |
 | The screenshot of the elements in the website. I am not sponsored btw. |
 

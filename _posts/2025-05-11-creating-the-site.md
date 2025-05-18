@@ -4,7 +4,7 @@ title:  "Building this website"
 date:   2025-05-11 11:00:00 +0800
 categories: tech-related
 permalink: "/blog/:title"
-top-image: "/assets/images/sitepreview.png"
+top-image: "/assets/images/2025-05/sitepreview.png"
 image-description: "A screenshot of my website"
 ---
 Now, the tech stack has been chosen.

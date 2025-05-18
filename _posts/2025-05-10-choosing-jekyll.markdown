@@ -4,7 +4,7 @@ title:  "Choosing a tech stack for this site"
 date:   2025-05-10 20:46:31 +0800
 categories: tech-related
 permalink: "/blog/:title"
-top-image: "/assets/images/jekyll.png"
+top-image: "/assets/images/2025-05/jekyll.png"
 image-description: ""
 ---
 Given that I have failed to secure a summer internship this summer, I decided to go on my own path to improve myself by building some projects that I thought of building but did not have the time during school to do so, along with a goal for losing weight.
