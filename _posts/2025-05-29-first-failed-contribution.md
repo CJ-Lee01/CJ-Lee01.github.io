@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My first (failed) attempt at contributing to Open Source"
-date:   2025-05-23 02:00:00 +0800
+date:   2025-05-29 02:00:00 +0800
 categories: tech-related
 permalink: "/blog/:title"
 top-image: "/assets/images/2025-05/uncivgameplay.png"
