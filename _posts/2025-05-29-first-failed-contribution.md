@@ -65,6 +65,7 @@ There is also a post for [trampolines in Kotlin](https://adamschoenemann.dk/post
 | ![tailrec](/assets/images/2025-05/tailrec.png) |
 | :-: |
 | Changes are in red |
+
 This would mean there will be some degree of code duplication, but at least `tailrec` can be used properly to clean up the stacks after use. Testing this method showed that the behaviour was the same without the issue of stack overflow.
 
 However, there was one big issue.
