@@ -33,6 +33,7 @@ Changing a lot of the codebase would mean changing a lot of documentation, and c
 
 ### The public interface of `TechManager` should not change
 It turns out that all 3 functions are depended upon by classes outside of `TechManager`. This would mean that the functions should not accept additional variables, function names should not be changed, etc. This is a diagram of the different interactions with `TechManager` through these 3 functions (pardon my handwriting):
+
 | ![techManagerFunctions](/assets/images/2025-05/techManager.png) |
 | :-: |
 | The 3 functions call each other, and are called by others as well. |
@@ -60,6 +61,7 @@ fun step(): RecurseFunction<RecurseFunction?> // error!!
 There is also a post for [trampolines in Kotlin](https://adamschoenemann.dk/posts/2019-02-12-trampolines.html), but it seems hard to maintain and for the same reason as above I decided to not go with the trampoline.
 
 ### Approach 3: `TechManager::updateResearchProgress` should call an implementation that uses `tailrec` instead of `TechManager::addScience`
+
 | ![tailrec](/assets/images/2025-05/tailrec.png) |
 | :-: |
 | Changes are in red |
